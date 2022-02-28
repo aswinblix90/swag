@@ -1,0 +1,58 @@
+.distribution{
+    background-image: url("../images/distribution-bg.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    .content{
+        padding: 252px 0;
+        .title,
+        .description {
+            color: white;
+        }
+        .title{
+            font-size: 65px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+            word-wrap: break-word;
+        }
+        .description{
+            font-weight: 400;
+            margin-top: 15px;
+        }
+        .swag-btn{
+            margin: 22px 0px 38px;
+        }
+        .distribution-card{
+            background-color: #fff;
+            padding: 43px;
+            box-shadow: 20px -20px #f556a0;
+            // .row:first-child{
+            //     border-bottom: 1px solid gray;
+            // }
+            .horizontal-line{
+                border-bottom: 1px solid #EAEAEA;
+                margin: 0 12px;
+            }
+            .vertical-line{
+                border-right: 1px solid #EAEAEA;
+            }
+            .card-inline {
+                padding: 20px 0;
+                img {
+                    max-width: 86px;
+                    max-height: 86px;
+                }
+
+                .description {
+                    margin-top: 18px;
+                    font-size: 12px;
+                    font-weight: 800;
+                    color: black;
+                    width: 120px;
+                }
+            }
+            
+        }
+    }
+}
