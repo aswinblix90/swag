@@ -1,0 +1,67 @@
+.what-we-do{
+    background-image: url("../images/what-we-do-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    i{
+        font-size: 65px;
+        margin-left: -12px;
+    }
+    .content{
+        padding: 200px 0;
+        color: white;
+        
+        .title,
+        .description {
+            margin-left: -24px;
+            font-weight: 600;
+        }
+        .title{
+            font-size: 45px;
+        }
+        .description{
+            font-size: 25PX;
+        }
+    }
+}
+.our-promise{
+    background-image: url("../images/single-medium-bg.png");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 436px;
+    margin-bottom: 80px;
+    .content{
+        background-color: #fff;
+        padding: 45px 120px 65px;
+
+        .title {
+            margin: 13px 0 40px;
+            font-size: 13px;
+            color: #ACADAD;
+        }
+        hr{
+            width: 50px;
+            height: 3px;
+            opacity: .2;
+            margin: 20px 400px 40px;
+        }
+
+        img {
+            width: 34px;
+            height: 48px;
+        }
+
+        .sub-title {
+            font-size: 16px;
+            margin: 16px 0 11px;
+            font-weight: bold;
+        }
+
+        .description {
+            font-size: 12px;
+            color: #979798;
+        }
+    }
+    
+}
