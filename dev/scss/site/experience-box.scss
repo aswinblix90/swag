@@ -1,0 +1,35 @@
+.box-experience {
+
+    .box-container {
+        position: relative;
+
+        .float-box {
+            background-color: #fff;
+            position: absolute;
+            top: 80px;
+            left: 80%;
+            min-width: auto;
+            padding: 40px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+            .title {
+                font-size: clamp(56px, 2vw, 23px);
+                font-weight: 700;
+                line-height: 1.2;
+            }
+
+            .title-clr {
+                color: #f556a0;
+            }
+
+            .description {
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 36px;
+                color: #979798;
+            }
+        }
+    }
+}
