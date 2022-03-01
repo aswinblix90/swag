@@ -1,0 +1,38 @@
+.testimonial{
+    background-image: url("../images/circle-cropped.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 90px 0 130px;
+    .container{
+        background-color: white;
+        padding: 5vw 7vw 3vw;
+    }
+    .title{
+        font-size: 14px;
+        color: #acadad;
+        margin: 14px 0 45px;
+    }
+    hr{
+        height: 3px;
+        color: #EAEAEA;
+        width: 100px;
+        margin: 20px 35px 35px;
+    }
+    .content{
+        .sub-title{
+            font-size: 18px;
+            margin: 18px 0 12px;
+            font-weight: 600;
+        }
+        .description{
+            font-size: 12px;
+            color: #979798;
+        }
+    }
+    .swag-btn{
+        background-color: #00bfff;
+        margin: auto;
+        max-width: max-content;
+    }
+}
