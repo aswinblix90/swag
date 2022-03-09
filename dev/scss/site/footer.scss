@@ -1,0 +1,57 @@
+.footer {
+    background-color: #252a2e;
+    padding: 100px 0 100px;
+    color: white;
+    opacity: .9;
+
+
+    .footer-logo {
+        max-height: 55px;
+        max-width: 200px;
+        margin-bottom: 100px;
+    }
+
+    .foot-links {
+        .title {
+            font-size: 20px;
+            font-weight: 600;
+            opacity: 1;
+        }
+
+        .slogan,
+        .desc {
+            font-size: 15px;
+        }
+
+        .main-link {
+            display: inline-block;
+            color: white;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .links {
+            .link-title {
+                color: #acadad;
+                font-size: 11px;
+                font-weight: 600;
+                letter-spacing: 2px;
+            }
+
+            ul {
+                li {
+                    font-size: 13px;
+                    font-weight: 500;
+                    line-height: 2;
+                }
+            }
+        }
+    }
+
+    .copy-right {
+        font-size: 13px;
+    }
+
+}
