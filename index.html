@@ -221,7 +221,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-around">
-                    <div class="col-lg-4 col-md-12 text-center mb-md-4 mb-4">
+                    <div data-scroll class="col-lg-4 col-md-12 text-center mb-md-4 mb-4">
                         <div class="content">
                             <img class="img-fluid mx-auto" src="assets/images/icons/quality.svg" alt="">
                             <h5 class="sub-title">Only Quality</h5>
@@ -231,7 +231,7 @@
                                 make sure every product you order, you’re proud to show off.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 text-center mb-md-4 mb-4">
+                    <div data-scroll class="col-lg-4 col-md-12 text-center mb-md-4 mb-4">
                         <div class="content">
                             <img class="img-fluid mx-auto" src="assets/images/icons/experience.svg" alt="">
                             <h5 class="sub-title">Streamlined Experience</h5>
@@ -241,7 +241,7 @@
                                 make sure every product you order, you’re proud to show off.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 text-center">
+                    <div data-scroll class="col-lg-4 col-md-12 text-center">
                         <div class="content">
                             <img class="img-fluid mx-auto" src="assets/images/icons/customer.svg" alt="">
                             <h5 class="sub-title">Customer Obsessed</h5>
@@ -257,12 +257,12 @@
     <div class="distribution">
         <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-12">
+                    <div data-scroll class="col-lg-6 col-md-12">
                         <h3 class="title">Swag<br>Distribution</h3>
                         <p class="description">Send swag to one location or to thousands of locations at once!</p>
                         <button class="swag-btn">Find out more</button>
                     </div>
-                    <div class="col-lg-6 col-md-12">
+                    <div data-scroll class="col-lg-6 col-md-12">
                         <div class="distribution-card">
                             <div class="row horizontal-line">
                                 <div class="col-sm-6 vertical-line">
@@ -313,7 +313,7 @@
                 </div>
             </div>
             <div class="row mt-5 mb-5">
-                <div class="col-md-6 mb-md-0 mb-sm-5 mb-5">
+                <div data-scroll class="col-md-6 mb-md-0 mb-sm-5 mb-5">
                     <div class="img-container">
                         <img class="img-fluid img-size" src="assets/images/botles.jpg" alt="">
                         <div class="item-details">
@@ -341,7 +341,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div data-scroll class="col-md-6">
                     <div class="img-container">
                         <img class="img-fluid img-size" src="assets/images/bags.jpg" alt="">
                         <div class="item-details">
@@ -355,7 +355,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 mb-md-0 mb-sm-5 mb-5">
+                <div data-scroll class="col-md-4 mb-md-0 mb-sm-5 mb-5">
                     <div class="img-container">
                         <img class="img-fluid img-size" src="assets/images/office.jpg" alt="">
                         <div class="item-details">
@@ -367,7 +367,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-md-0 mb-sm-5 mb-5">
+                <div data-scroll class="col-md-4 mb-md-0 mb-sm-5 mb-5">
                     <div class="img-container">
                         <img class="img-fluid img-size" src="assets/images/tech.jpg" alt="">
                         <div class="item-details">
@@ -379,7 +379,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div data-scroll class="col-md-4">
                     <div class="img-container">
                         <img class="img-fluid img-size" src="assets/images/apparel.jpg" alt="">
                         <div class="item-details">
@@ -394,7 +394,7 @@
             </div>
         </div>
     </div>
-    <div class="container box-experience">
+    <div data-scroll class="container box-experience">
         <div class="row">
             <div class="col-md-12 col-lg-10">
                 <div class="box-container">
@@ -419,7 +419,7 @@
         </div>
     </div>
     <div class="testimonial mt-5">
-        <div class="container">
+        <div data-scroll class="container">
             <div class="row text-center">
                 <div class="col-md-12">
                     <h3 class="title">AW, YOU GUYS…</h3>
@@ -505,11 +505,11 @@
     <div class="as-seen-on mt-5">
         <div class="container">
             <div class="content">
-                <div>
+                <div data-scroll>
                     <h1 class="title">As seen on</h1>
                     <hr>
                 </div>
-                <div class="client-logo mb-5">
+                <div data-scroll class="client-logo mb-5">
                     <div class="row justify-content-evenly">
                         <div class="col-6 col-lg-2 mb-md-3 mb-3">
                             <img class="img-fluid" src="assets/images/icons/adweek.svg" alt="">
@@ -602,6 +602,10 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <script>
+        ScrollOut();
+    </script>
     <script>
         $(document).ready(function () {
             $('#swag-slider').slick({
