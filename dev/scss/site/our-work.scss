@@ -11,8 +11,23 @@
 
         .swag-btn {
             background-color: #00bfff;
-            display: inline-block;
+            // display: inline-block;
         }
     }
 
+}
+@media screen and(max-width:576px) {
+   .our-work {
+
+       .content {
+           padding-top: 35vw;
+           padding-bottom: 50px;
+
+           .swag-btn {
+               background-color: #00bfff;
+               display: inline-block;
+           }
+       }
+
+   }
 }

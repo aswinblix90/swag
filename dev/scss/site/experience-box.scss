@@ -2,7 +2,22 @@
 
     .box-container {
         position: relative;
+        .box-title {
+            font-size: clamp(56px, 2vw, 23px);
+            font-weight: 700;
+            line-height: 1.2;
+        }
 
+        .box-title-clr {
+            color: #f556a0;
+        }
+
+        .box-description {
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 36px;
+            color: #979798;
+        }
         .float-box {
             background-color: #fff;
             position: absolute;

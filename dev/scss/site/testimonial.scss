@@ -1,12 +1,14 @@
 .testimonial{
     background-image: url("../images/circle-cropped.png");
-    background-position: center;
-    background-size: 100% 100%;
+    background-position: 0 top;
+    background-size:contain;
     background-repeat: no-repeat;
     padding: 90px 0 130px;
     .container{
         background-color: white;
-        padding: 5vw 7vw 3vw;
+        padding: 80px 150px 60px;
+        border: 2px dashed #00bfff;
+
     }
     .title{
         font-size: 14px;
@@ -21,13 +23,14 @@
     }
     .content{
         .sub-title{
-            font-size: 18px;
-            margin: 18px 0 12px;
-            font-weight: 600;
+            font-size: 20px;
+            margin: 20px 0 14px;
+            font-weight: 700;
         }
         .description{
-            font-size: 12px;
+            font-size: 15px;
             color: #979798;
+            line-height: 1.8;
         }
     }
     .swag-btn{
@@ -35,4 +38,22 @@
         margin: auto;
         max-width: max-content;
     }
+}
+@media screen and(max-width:768px) {
+    .testimonial {
+        padding: 30px 60px 50px;
+        .container {
+            padding: 50px 125px;
+        }
+    }
+}
+@media screen and(max-width:576px){
+    .testimonial {
+        padding: 30px 15px 50px;
+        .container {
+            padding: 40px 60px;
+        }
+
+    }
+    
 }
