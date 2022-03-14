@@ -1,5 +1,6 @@
 .img-size {
-    height: 500px;
+    height: 45vh;
+    width: 100%;
 }
 .top-products{
     padding: 65px 0;
@@ -17,31 +18,71 @@
         margin: 20px auto;
         
     }
-    .img-container{
+    .content {
+        overflow: hidden;
         position: relative;
-        .item-details{
-            position: absolute;
-            // display: grid;
-            // grid-template-columns: 1fr 1fr;
-            // grid-template-rows: auto;
-            padding: 20px;
-            background-color:#f556a0;
-            color: white;
-            bottom: 0;
-            right: 0;
-            left: 0;
 
-            .sub-title {
-                font-size: 32px;
-                font-weight: 700;
+        .img-fluid {
+            transition: ease-in 0.5s ease;
+        }&:hover {
+
+            .details {
+                position: absolute;
+                bottom: 0;
             }
-            // .detail {
-            //     font-size: 18px;
-            //     font-weight: 300;
-            // }
-            // button{
+            
+            .hidden-el {
+                opacity: 1;
+            }
+        }
+    }
 
-            // }
+    .details {
+        position: absolute;
+        color: #ffffff;
+        transition: all 0.5s ease;
+        cursor: pointer;
+        background-color: #f556a0;
+        bottom: -35px;
+        right: 0;
+        left: 0;
+
+        .sub-title {
+            // font-size: 32px;
+            font-size: clamp(18px, 2.5vw, 32px);
+            font-weight: 700;
+        }
+        
+        .hidden-el {
+            text-align: left;
+            opacity: 0;
+            display: grid;
+            transition: all 0.5s ease;
+            grid-template-columns: 1fr 1fr;
+            .desc{
+                font-size: clamp(8px ,40vw, 15px);
+                font-weight: 300;
+                align-self: center;
+            }
+            .swag-btn {
+                justify-self: end;
+                background-color: #00bfff;
+                font-size: 12px;
+                font-weight:700;
+                // padding: 18px 65px; //calc(8px + 1.5625vw)
+                margin-right: 15px;
+            }
+        }
+    }
+}
+@media screen and (max-width:992px) {
+    .top-products {
+        .details {
+            bottom: 0;
+            .hidden-el {
+                display: none;
+
+            }
         }
     }
 }
