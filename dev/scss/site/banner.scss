@@ -1,14 +1,13 @@
 .banner {
     background-image: url("../images/banner.jpg");
     background-color: #cccccc;
-    // height: 550px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     .content {
         color: white;
-        padding: 200px 0;
+        padding: 22vh 0;
 
         .title {
             font-size: clamp(3.5rem, 3.023rem + 2.0351vw, 5.3125rem);

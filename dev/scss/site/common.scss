@@ -32,8 +32,8 @@ ul{
 .swag-btn{
     font-size: 17px;
     font-weight: 600;
-    background-color: #f556a0;
-    padding: 17px 60px;
+    background-color: $primary-clr;
+    padding: 1.8vh 3.2vw;
     color: white;
     border: none;
 }
@@ -57,7 +57,7 @@ ul{
 }
 
 ::-webkit-scrollbar-thumb {
-    background:#f556a0;
+    background: $primary-clr;
     border-radius: 10px;
 }
 

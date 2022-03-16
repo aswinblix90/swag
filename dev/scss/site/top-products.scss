@@ -1,9 +1,9 @@
 .img-size {
-    height: 45vh;
+    height: 49vh;
     width: 100%;
 }
 .top-products{
-    padding: 65px 0;
+    padding: 6.8vh 0;
 
     .title{
         margin: 12px 0 21px;
@@ -42,13 +42,12 @@
         color: #ffffff;
         transition: all 0.5s ease;
         cursor: pointer;
-        background-color: #f556a0;
+        background-color: $primary-clr;
         bottom: -35px;
         right: 0;
         left: 0;
 
         .sub-title {
-            // font-size: 32px;
             font-size: clamp(1rem, 0.7368rem + 1.1228vw, 2rem);
             font-weight: 700;
         }
@@ -66,10 +65,9 @@
             }
             .swag-btn {
                 justify-self: end;
-                background-color: #00bfff;
+                background-color: $secondary-clr;
                 font-size: 12px;
                 font-weight:700;
-                // padding: 18px 65px; //calc(8px + 1.5625vw)
                 margin-right: 15px;
             }
         }

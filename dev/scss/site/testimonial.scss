@@ -3,11 +3,11 @@
     background-position: 0 top;
     background-size:contain;
     background-repeat: no-repeat;
-    padding: 90px 0 130px;
+    padding: 9.5vh 0 6.7vw;
     .container{
         background-color: white;
-        padding: 80px 150px 60px;
-        border: 2px dashed #00bfff;
+        padding: 8.4vh 7.8vw 6.3vh;
+        border: 2px dashed $secondary-clr;
 
     }
     .title{
@@ -34,26 +34,26 @@
         }
     }
     .swag-btn{
-        background-color: #00bfff;
+        background-color: $secondary-clr;
         margin: auto;
         max-width: max-content;
     }
 }
-@media screen and(max-width:768px) {
-    .testimonial {
-        padding: 30px 60px 50px;
-        .container {
-            padding: 50px 125px;
-        }
-    }
-}
-@media screen and(max-width:576px){
-    .testimonial {
-        padding: 30px 15px 50px;
-        .container {
-            padding: 40px 60px;
-        }
+// @media screen and(max-width:768px) {
+//     .testimonial {
+//         padding: 30px 60px 50px;
+//         .container {
+//             padding: 50px 125px;
+//         }
+//     }
+// }
+// @media screen and(max-width:576px){
+//     .testimonial {
+//         padding: 30px 15px 50px;
+//         .container {
+//             padding: 40px 60px;
+//         }
 
-    }
+//     }
     
-}
+// }
