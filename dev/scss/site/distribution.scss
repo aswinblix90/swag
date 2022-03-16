@@ -10,7 +10,7 @@
             color: white;
         }
         .title{
-            font-size: 65px;
+            font-size: clamp(3.125rem, 2.5493rem + 2.4561vw, 5.3125rem);
             font-weight: 700;
             letter-spacing: 1px;
             margin-bottom: 30px;

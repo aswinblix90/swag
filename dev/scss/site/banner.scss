@@ -11,13 +11,13 @@
         padding: 200px 0;
 
         .title {
-            font-size: clamp(2.5rem, 5vw, 4.3rem);
+            font-size: clamp(3.5rem, 3.023rem + 2.0351vw, 5.3125rem);
             font-weight: 800;
             word-spacing: nowrap;
         }
 
         .description {
-            font-size: clamp(.7rem, 2vw, 1.06rem);
+            font-size: clamp(0.9375rem, 0.8553rem + 0.3509vw, 1.25rem);
             font-weight: 500;
         }
     }

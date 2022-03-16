@@ -49,7 +49,7 @@
 
         .sub-title {
             // font-size: 32px;
-            font-size: clamp(18px, 2.5vw, 32px);
+            font-size: clamp(1rem, 0.7368rem + 1.1228vw, 2rem);
             font-weight: 700;
         }
         
@@ -60,7 +60,7 @@
             transition: all 0.5s ease;
             grid-template-columns: 1fr 1fr;
             .desc{
-                font-size: clamp(8px ,40vw, 15px);
+                font-size: 18px;
                 font-weight: 300;
                 align-self: center;
             }

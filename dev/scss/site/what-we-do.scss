@@ -17,10 +17,11 @@
             font-weight: 600;
         }
         .title{
-            font-size: 45px;
+            font-size: clamp(2.375rem, 2.0789rem + 1.2632vw, 3.5rem);
         }
         .description{
-            font-size: 25PX;
+            // font-size: 32px;
+            font-size: clamp(1.5625rem, 1.4474rem + 0.4912vw, 2rem);
         }
     }
 }
